@@ -60,6 +60,9 @@ button {
 .menu-link:focus {
     color: var(--accent-color);
 }
+.current{
+    color: var(--accent-color);
+}
 
 .e-mail,
 .phone-number {
@@ -165,7 +168,7 @@ button {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    /* color: #FFFFFF; */
+    color: #FFFFFF;
 }
 
 .e-mail-footer,
@@ -175,18 +178,20 @@ button {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    /* color: rgba(255, 255, 255, 0.6); */
+    color: rgba(255, 255, 255, 0.6);
 }
 
-.adress-link,
-.e-mail-footer,
-.phone-number-footer :hover,
-.adress-link,
-.e-mail-footer,
-.phone-number-footer :focus {
+.adress-link:hover,
+.e-mail-footer:hover,
+.phone-number-footer:hover,
+.adress-link:focus,
+.e-mail-footer:focus,
+.phone-number-footer:focus {
     color: var(--accent-color);
 }
-
+.footer{
+    background: #2F303A;
+}
 /* =================</FOOTER>========================= */
 
 /* ==================<PORTFOLIO-PAGE>================= */
