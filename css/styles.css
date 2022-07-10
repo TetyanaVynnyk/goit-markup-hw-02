@@ -1,0 +1,227 @@
+:root {
+    --accent-color: #2196F3;
+    --block-text-color: #757575;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+
+button {
+    font-family: inherit;
+}
+
+/*=============<COMPONENTS>============ */
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/*=============</COMPONENTS>============ */
+
+/* =============<HEADER>================ */
+.logo-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.first-logo-word {
+    color: #2196F3;
+}
+
+.second-logo-word {
+    color: #000000;
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: inherit;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: var(--accent-color);
+}
+
+.e-mail,
+.phone-number {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.e-mail:hover,
+.e-mail:focus {
+    color: var(--accent-color);
+}
+
+.phone-number:hover,
+.phone-number:focus {
+    color: var(--accent-color);
+}
+
+/* =============</HEADER>================ */
+
+/* =============<HERO>=================== */
+.main-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    /* color: #FFFFFF; */
+}
+
+.modal-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    background: #188CE8;
+}
+
+/* =============</HERO>================== */
+
+/* =============<Main principles of bussiness>====== */
+.internal-block-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.internal-block-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--block-text-color);
+}
+
+/* =============</Main principles of bussiness>====== */
+
+/* ==============<Types of services>================ */
+
+/* ==============</Types of services>================ */
+
+/* ==============<Employees>========================= */
+.employee-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.employee-working-department {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--block-text-color);
+}
+
+/* ==============</Employees>========================= */
+
+/* =================<FOOTER>========================= */
+.adress-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    /* color: #FFFFFF; */
+}
+
+.e-mail-footer,
+.phone-number-footer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    /* color: rgba(255, 255, 255, 0.6); */
+}
+
+.adress-link,
+.e-mail-footer,
+.phone-number-footer :hover,
+.adress-link,
+.e-mail-footer,
+.phone-number-footer :focus {
+    color: var(--accent-color);
+}
+
+/* =================</FOOTER>========================= */
+
+/* ==================<PORTFOLIO-PAGE>================= */
+.portfolio-menu-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: inherit;
+    background: #F5F4FA;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.portfolio-menu-btn:hover,
+.portfolio-menu-btn:focus {
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.portfolio-item-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portfolio-item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--block-text-color);
+}
+
+/* ==================</PORTFOLIO-PAGE>================= */
